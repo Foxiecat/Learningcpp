@@ -3,4 +3,5 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(HelloWorld main.cpp)
+add_executable(HelloWorld "Source Files/main.cpp"
+        "Source Files/Log.cpp")
