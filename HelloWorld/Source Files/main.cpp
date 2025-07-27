@@ -2,7 +2,8 @@
 
 void Log(const char* message);
 
-int main() {
+int main()
+{
     Log("Hello World!");
     return 0;
 }
