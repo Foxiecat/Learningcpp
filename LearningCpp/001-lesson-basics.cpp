@@ -48,15 +48,15 @@ int main() {
      *   How old are you? 25
      *   Hello Sophia! You are 25 years old.
      */
-    //std::string name;
+    std::string myName;
     int age;
 
     std::cout << "What is your name? ";
-    std::cin >> name;
+    std::cin >> myName;
     std::cout << "How old are you? ";
     std::cin >> age;
 
-    const std::string greeting = format("Hello {}! You are {} years old.", name, age);
+    const std::string greeting = format("Hello {}! You are {} years old.", myName, age);
     std::cout << greeting << std::endl;
 
     /*
